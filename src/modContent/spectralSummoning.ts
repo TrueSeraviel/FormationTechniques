@@ -147,7 +147,10 @@ export function initializeSpectralSummoning(){
   console.log('Adding technique...')
   window.modAPI.actions.addTechnique(spectralSummoning)
   console.log('Adding Shop connection...')
+  window.modAPI.actions.addItem(invocationDefenderManual)
+  console.log('Adding Shop connection...')
   window.modAPI.actions.addItemToShop(invocationDefenderManual, 1, 'Falling Star Observatory', 'qiCondensation', 8,  'respected')
   console.log('Complete.')
 }
+
 ;
