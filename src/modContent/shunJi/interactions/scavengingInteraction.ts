@@ -85,7 +85,7 @@ export const scavengingInteraction: CustomCharacterInteractionBlock = {
                     children: [
                       {
                         kind: 'text',
-                        text: `The both of you sort through the refuse. ${random} | ${calc} | ${eyes} | ${digestion}`,
+                        text: `The both of you sort through the refuse. {random} | {calc} | {eyes} | {digestion}`,
                       },
                       {
                         kind: 'speech',
@@ -247,7 +247,7 @@ export const scavengingInteraction: CustomCharacterInteractionBlock = {
                                     {
                                         kind: 'addItem',
                                         item: window.modAPI.gameData.items['Discarded Remnant'],
-                                        amount: 'Math.floor(Math.random() * 10)'
+                                        amount: 'ceil(rng * 10)'
                                     },
                                 ]
                             },
@@ -284,4 +284,5 @@ export const scavengingInteraction: CustomCharacterInteractionBlock = {
      }
     ]
   },
+
 };
