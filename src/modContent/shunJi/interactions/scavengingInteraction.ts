@@ -160,7 +160,7 @@ export const scavengingInteraction: CustomCharacterInteractionBlock = {
                     children: [
                       {
                         kind: 'text',
-                        text: `The both of you sort through the refuse. ${random} | ${calc} | ${eyes} | ${digestion}`,
+                        text: `The both of you sort through the refuse. {random} | {calc} | {eyes} | {digestion}`,
                       },
                       {
                         kind: 'speech',
@@ -230,7 +230,7 @@ export const scavengingInteraction: CustomCharacterInteractionBlock = {
                     children: [
                       {
                         kind: 'text',
-                        text: `The both of you sort through the refuse. ${random} | ${calc} | ${eyes} | ${digestion}`,
+                        text: `The both of you sort through the refuse. {random} | {calc} | {eyes} | {digestion}`,
                       },
                       {
                         kind: 'speech',
@@ -257,7 +257,7 @@ export const scavengingInteraction: CustomCharacterInteractionBlock = {
                                     {
                                         kind: 'speech',
                                         character: name,
-                                        text: `${name} shruuged. "Your loss."`
+                                        text: `${name} shrugged. "Your loss."`
                                     }
                                 ]
                             }
@@ -284,6 +284,4 @@ export const scavengingInteraction: CustomCharacterInteractionBlock = {
      }
     ]
   },
-
 };
-
