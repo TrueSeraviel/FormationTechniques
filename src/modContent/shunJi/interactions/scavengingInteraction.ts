@@ -5,11 +5,11 @@ import { SportsKabaddi } from '../../../../node_modules/@mui/icons-material';
 
 //const remnant = window.modAPI.;
 
-var count = '0';
+/*var count = '0';
 var random = '0';
 var calc = 0;
 var eyes = 0;
-var digestion = 0;
+var digestion = 0;*/
 
 const name = shunJiName;
 
@@ -286,3 +286,4 @@ export const scavengingInteraction: CustomCharacterInteractionBlock = {
   },
 
 };
+
