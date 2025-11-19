@@ -1,4 +1,3 @@
-
 import { Buff, 
   Rarity,
   TreasureItem, 
@@ -132,7 +131,7 @@ export const spectralSummoning: Technique = {
 
 export const invocationDefenderManual: TechniqueItem = {
   subKind: 'technique',
-  technique: 'spectralSummoning',
+  technique: spectralSummoning.name,
   kind: 'technique',
   name: spectralSummoning.name,
   element: 'none',
@@ -146,11 +145,10 @@ export const invocationDefenderManual: TechniqueItem = {
 export function initializeSpectralSummoning(){
   console.log('Adding technique...')
   window.modAPI.actions.addTechnique(spectralSummoning)
-  console.log('Adding Shop connection...')
+  console.log('Adding item...')
   window.modAPI.actions.addItem(invocationDefenderManual)
   console.log('Adding Shop connection...')
   window.modAPI.actions.addItemToShop(invocationDefenderManual, 1, 'Falling Star Observatory', 'qiCondensation', 8,  'respected')
   console.log('Complete.')
 }
-
 ;
